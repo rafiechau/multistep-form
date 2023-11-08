@@ -1,0 +1,60 @@
+.pack {
+    margin-bottom:15px;
+    align-items: center;
+    border: hsl(229, 24%, 87%) 1px solid;
+    padding: 20px;
+    border-radius: 8px;
+    
+    cursor: pointer;
+    &:hover{
+      border: $blue 1px solid !important;
+    }
+    .dflex{
+      display: flex;
+      align-items: center;
+    }
+    .title {
+      padding-left: 20px;
+      h3{
+        font-size: 18px;
+        color: #174a89;
+        user-select: none;
+      }
+      p{
+        padding-left:2px;
+        font-weight: 400;
+        font-size: 16px;
+        padding-top: 5px;
+        user-select: none;
+      }
+    }
+    span{
+      font-size: 18px;
+      color: $blue;
+      user-select: none;
+    }
+  
+  input[type=checkbox]{
+    cursor: pointer;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: hsl(229, 24%, 87%) 1px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+  }
+  input[type=checkbox]:after{
+  content: url(../assets/images/icon-checkmark.svg);
+  display: none;
+  }
+  input[type=checkbox]:checked{
+    background-color: $blue;
+  }
+  input[type=checkbox]:checked::after{
+    display: block;
+  }
+  }

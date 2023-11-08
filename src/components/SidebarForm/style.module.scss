@@ -1,0 +1,36 @@
+
+//////////// Steps section
+
+
+
+.Step {
+    display: flex;
+    margin: 30px 40px;
+    .stepNumber {
+      margin-right: 15px;
+      padding: 10px 15px;
+      background-color: $blue;
+      color: white;
+      border-radius: 100%;
+      font-weight: 500;
+      border: white 1px solid;
+      font-weight: 700;
+    }
+    .active {
+      background-color: hsl(206, 94%, 87%);
+      color: $Darkblue;
+      border-color: hsl(206, 94%, 87%);
+    }
+    .stepInfo {
+      span {
+        color: hsl(228, 100%, 84%);
+        font-size: 14px;
+      }
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: white;
+      }
+    }
+  }
