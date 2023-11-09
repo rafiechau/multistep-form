@@ -9,6 +9,9 @@ export default {
   app_popup_close_button_label: 'Close',
   header_personal_info_form: 'Personal Info',
   decription_personal_info_form: 'Please provide your name, email address, and phone number',
+  label_form_personal_info_name: 'Name',
+  label_form_personal_info_email: 'Email Address',
+  label_form_personal_info_phone: 'Phone Number',
   header_planning_form: 'Select your plan',
   description_planning_form: 'You have the option of monthly or yearly billing',
   header_add_ons_form: 'Pick add-ons',
@@ -26,4 +29,10 @@ export default {
   desc_step_2: 'select plan',
   desc_step_3: 'add_ons',
   desc_step_4: 'summary',
+  title_finishing: 'Thank you',
+  desc_finishing:
+    'Thanks for confirming your subscription! We hope you have fun using our platform. If you ever need support, please feel free to email us at support@loremgaming.com.',
+  text_monthly: 'Monthly',
+  text_yearly: 'Yearly',
+  text_free: '2 months free',
 };

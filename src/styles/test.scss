@@ -1,0 +1,153 @@
+/////////Mobile//////////
+@media (max-width: 768px) {
+    main {
+      width: 100%;
+      height: auto;
+    }
+    .Container {
+      min-width: 100%;
+      height: auto;
+      background-color: #eef5ff;
+      margin: auto;
+      padding: 0px;
+      border-radius: 0;
+      display: block;
+    }
+    .Steps {
+      background: url("/src/assets/images/bg-sidebar-mobile.svg") no-repeat;
+      width: 100%;
+      background-size: cover;
+      height: 200px;
+      padding-top: 15px;
+      display: flex;
+      justify-content: center;
+      border-radius: 0;
+      .Step {
+        margin: 30px 0px;
+        display: block;
+        .stepNumber {
+          margin-right: 5vw;
+          padding: 8px 13px;
+        }
+      }
+    }
+    .stepInfo {
+      display: none;
+    }
+    .content {
+      border-radius: 10px;
+      padding-bottom: 100px;
+      margin-top: -110px;
+      
+    }
+    .info {
+      padding-bottom:100px;
+      max-width: 90%;
+      margin: auto;
+      padding: 5%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px #d6d9e6;
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 500;
+      }
+      h2 {
+        font-size: 28px;
+      }
+      .form {
+        margin-top: 20px;
+        padding-bottom: 15px;
+        .fields {
+          margin-top: 20px;
+          input {
+            font-size: 16px;
+            padding: 10px 15px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+    .navigation {
+      width: 100%;
+      margin: auto;
+      background-color: white;
+      padding: 3% 20px;
+      bottom: 0px;
+      position: fixed;
+      button {
+        font-size: 14px;
+      }
+    }
+    .thanks {
+      padding: 75px 0;
+      max-width: 90%;
+      margin: auto;
+      background-color: white;
+      position: relative;
+      margin-top: -0px;
+      border-radius: 10px;
+      top: auto;
+      transform: initial;
+      box-shadow: 0 5px 10px #d6d9e6;
+    }
+    .packs{
+      margin-top: 25px;
+    }
+    .pack{
+      padding: 15px;
+      span{
+        font-size: 14px;
+      }
+      .title{
+        padding-left: 15px;
+        p{
+          font-size: 13px;
+          line-height: 15px;
+          padding-left: 0;
+        }
+        h3{
+          font-size: 15px;
+        }
+      }
+      input[type=checkbox]{
+        height: 20px;
+        width: 20px;
+      }
+    }
+    .total{
+      padding: 20px 25px 10px 25px;
+        span{
+          font-size: 18px;
+        }
+    }
+    .plansCrads{
+      display: block;
+    }
+    .planCard{
+      display: flex;
+      padding: 20px 15px;
+      border: hsl(229, 24%, 87%) 1px solid;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      .title{
+        margin-top: 0px;
+        margin-left: 15px;
+        h3{
+          font-size: 18px;
+          color: #174a89;
+        }
+        p{
+          margin-top:0px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  /////////L Screen //////////
+  @media (min-width: 1201px) {
+    .content {
+      min-width: 50%;
+    }
+  }

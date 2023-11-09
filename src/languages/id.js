@@ -8,7 +8,10 @@ export default {
   app_popup_error_message: 'Maaf, telah terjadi kesalahan. Silakan coba beberapa saat lagi',
   app_popup_close_button_label: 'Tutup',
   header_personal_info_form: 'Informasi Pribadi',
-  description_personal_info_form: 'Silakan masukkan nama, alamat email, dan nomor telepon Anda',
+  decription_personal_info_form: 'Silakan masukkan nama, alamat email, dan nomor telepon Anda',
+  label_form_personal_info_name: 'Nama',
+  label_form_personal_info_email: 'Alamat Email',
+  label_form_personal_info_phone: 'Nomor Telepon',
   header_planning_form: 'Pilih rencana Anda',
   description_planning_form: 'Anda memiliki opsi pembayaran bulanan atau tahunan',
   header_add_ons_form: 'Pilih add-ons',
@@ -26,4 +29,10 @@ export default {
   desc_step_2: 'pilih rencana',
   desc_step_3: 'add-ons',
   desc_step_4: 'ringkasan',
+  title_finishing: 'Terima Kasih',
+  desc_finishing:
+    'Terima kasih telah mengonfirmasi langganan Anda! Kami harap Anda bersenang-senang menggunakan platform kami. Jika Anda membutuhkan dukungan, silakan kirim email kepada kami di support@loremgaming.com.',
+  text_monthly: 'Bulan',
+  text_yearly: 'Tahun',
+  text_free: '2 bulan gratis',
 };

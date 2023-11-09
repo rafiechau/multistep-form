@@ -3,16 +3,17 @@ $gray: hsl(231, 11%, 63%);
 $blue: hsl(243, 100%, 62%);
 $Darkblue: hsl(213, 96%, 18%);
 $red: #c94451;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
-  // border: 1px solid red !important;
 }
 body{
   background-color: #eef5ff;
 }
+
 ///////////// All page size and container
 main {
   width: 100%;
@@ -46,37 +47,6 @@ main {
   padding-top: 10px;
   border-radius: 1rem;
 }
-.Step {
-  display: flex;
-  margin: 30px 40px;
-  .stepNumber {
-    margin-right: 15px;
-    padding: 10px 15px;
-    background-color: $blue;
-    color: white;
-    border-radius: 100%;
-    font-weight: 500;
-    border: white 1px solid;
-    font-weight: 700;
-  }
-  .active {
-    background-color: hsl(206, 94%, 87%);
-    color: $Darkblue;
-    border-color: hsl(206, 94%, 87%);
-  }
-  .stepInfo {
-    span {
-      color: hsl(228, 100%, 84%);
-      font-size: 14px;
-    }
-    p {
-      font-weight: 500;
-      font-size: 16px;
-      letter-spacing: 1px;
-      color: white;
-    }
-  }
-}
 
 //////////Navigation/////
 .navigation {
@@ -109,4 +79,63 @@ main {
 .btnRight{
   justify-content: right !important;
 }
+
+
+@media screen and (max-width: 768px) {
+    main{
+      width: 100%;
+      height: auto;
+      .Container{
+        min-width: 100%;
+        height: auto;
+        background-color: #eef5ff;
+        margin: auto;
+        padding: 0px;
+        border-radius: 0;
+        display: block;
+        .Steps{
+          background: url("../../../public/images/bg-sidebar-mobile.svg") no-repeat;
+          width: 100%;
+          background-size: cover;
+          height: 200px;
+          padding-top: 15px;
+          display: flex;
+          justify-content: center;
+          border-radius: 0;
+          .Step {
+            margin: 30px 0px;
+            display: block;
+            .stepNumber {
+              margin-right: 5vw;
+              padding: 8px 13px;
+            }
+          }
+        }
+      }
+      .content {
+      border-radius: 10px;
+      padding-bottom: 100px;
+      margin-top: -110px;
+      .navigation {
+        width: 100%;
+        margin: auto;
+        background-color: white;
+        padding: 3% 20px;
+        bottom: 0px;
+        position: fixed;
+        button {
+          font-size: 14px;
+        }
+      }
+    }
+    }
+    
+}
+
+@media (min-width: 1201px) {
+  .content {
+    min-width: 50%;
+  }
+}
+
 

@@ -23,3 +23,26 @@
     border: $blue 1px solid !important;
     background-color: #F8F9FE;
 }
+
+
+@media screen and (max-width: 768px) {
+  .planCard{
+    display: flex;
+    padding: 20px 15px;
+    border: hsl(229, 24%, 87%) 1px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    .title{
+      margin-top: 0px;
+      margin-left: 15px;
+      h3{
+        font-size: 18px;
+        color: #174a89;
+      }
+      p{
+        margin-top:0px;
+        font-size: 16px;
+      }
+    }
+  }
+}
